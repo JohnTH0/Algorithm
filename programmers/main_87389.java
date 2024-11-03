@@ -31,3 +31,23 @@ public class main_87389 {
         return x;
     }
 }
+
+/* 제출코드
+class Solution {
+    public int solution(int n) {
+        int x = 0;
+        if (n % 2 == 0){
+            int k = n - 1;
+            for (int i = 2; i <= k; i++){
+                if (k % i == 0){
+                    x = i;
+                    break;
+                }
+            }
+        } else {
+           x = 2;
+        }
+        return x;
+    }
+}
+ */
