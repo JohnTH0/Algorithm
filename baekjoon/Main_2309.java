@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class main_2309 {
+public class Main_2309 {
     // 포함여부를 확인하기 위한 배열 선언
     public static boolean[] visited = new boolean[9];
 

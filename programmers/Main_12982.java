@@ -3,7 +3,7 @@
 
 import java.util.Arrays;
 
-public class main_12982 {
+public class Main_12982 {
     public static void main(String[] args) {
         int[] d = {1,3,2,5,4};
         int budget = 9;

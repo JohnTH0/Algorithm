@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class main_142086 {
+public class Main_142086 {
     public static void main(String[] args) {
         String s = "qqqq";
         int[] answer = new int[s.length()];

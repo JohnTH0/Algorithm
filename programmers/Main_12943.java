@@ -1,4 +1,4 @@
-public class main_12943 {
+public class Main_12943 {
     public static void main(String[] args) {
         int num = 626331;
         int result = 0;

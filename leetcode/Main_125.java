@@ -4,15 +4,13 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Objects;
 
-public class main_125 {
+public class Main_125 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         String s = br.readLine();
         LinkedList<String> stack = new LinkedList<>();
-        if(s.length() == 2){
 
-        }
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (Character.isLetter(c)) {

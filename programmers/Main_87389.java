@@ -6,7 +6,7 @@ n을 x로 나눈 나머지가 1이 되도록 하는 가장 작은 자연수 x를
 */
 import java.util.Scanner;
 
-public class main_87389 {
+public class Main_87389 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

@@ -12,7 +12,7 @@ import java.util.List;
 
 import java.util.Scanner;
 
-public class main_12954 {
+public class Main_12954 {
     public static void main(String[] args) {
 //        필요한 변수 선언
         Scanner scanner = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class main_12954 {
         int n = scanner.nextInt();
         System.out.printf("n 값: %d", n);
 
-        System.out.println(main_12954.solution(x,n));
+        System.out.println(Main_12954.solution(x,n));
     }
 
     public static List<Long> solution(int x, int n) {

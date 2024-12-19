@@ -25,7 +25,7 @@ import java.io.InputStreamReader;
 //    }
 //}
 
-public class main_17427 {
+public class Main_17427 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());

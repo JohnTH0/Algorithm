@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class main_12935 {
+public class Main_12935 {
     public static void main(String[] args) {
         int[] arr = new int[] {4,3,2,1};
         ArrayList<Integer> arraylist_answer = new ArrayList<>();

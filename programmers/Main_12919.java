@@ -1,4 +1,4 @@
-public class main_12919 {
+public class Main_12919 {
     public static void main(String[] args) {
         int x = 0;
         String[] seoul = new String[]{"Kim","ZxCvBnMaSdFgHjKl","QaZwSxEdCrFvTgBy"};
