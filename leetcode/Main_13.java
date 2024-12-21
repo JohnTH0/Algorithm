@@ -33,10 +33,6 @@ public class Main_13 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String s = br.readLine();
-        /*
-        MCMXCIV = 1000 + 100 + 1000 + 10 + 100 + 1 + 5 1994
-                => 1000 + (1000 - 100) + (100 - 90) + (5 - 1)
-         */
 
         // 주어진 문자열을 변환하여 담기 위한 리스트 선언
         List<Integer> list = new ArrayList<>();
@@ -46,7 +42,7 @@ public class Main_13 {
 
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            list.add(romanMap.getOrDefault(c, 0));
+            list.add(romanMap.get(c));
         }
         System.out.println(list);
 
