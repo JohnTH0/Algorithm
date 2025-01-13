@@ -1,9 +1,8 @@
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class Main_12950 {
     public static void main(String[] args) {
-/*  임시 생성
+        //더미 데이터
         int[][] array1 = {
                 {1, 2},
                 {2, 3}
@@ -13,7 +12,7 @@ public class Main_12950 {
                 {5, 6}
         };
 
-*/
+
         int[][] answer = new int[array1.length][array2[0].length];
 
         for (int i = 0; i < array1.length; i++) {

@@ -10,9 +10,7 @@ public class Main_12969 {
         int count = 0;
 
         while (count < b){
-            for (int i = 0; i < a; i++) {
-                sb.append("*");
-            }
+            sb.append("*".repeat(Math.max(0, a)));
             sb.append("\n");
             count ++;
         }
